@@ -1,0 +1,23 @@
+<Alloy>
+	<Collection src="jugadores"/>
+	<Window class="container">
+		<View id="vCabecera">
+			<Label id="labelTitulo">Simon Dice</Label>
+			<Button id="bfacebook" onClick="doClickFacebook"></Button>
+			<Button id="bRank" onClick="doClickRank"></Button>
+		</View>
+		
+		<View id="vCuerpo">
+			<Button id="bVerde" onClick="doClickVerde"></Button>
+			<Button id="bRojo" onClick="doClickRojo"></Button>
+			<Button id="bAmarillo" onClick="doClickAmarillo"></Button>
+			<Button id="bAzul" onClick="doClickAzul"></Button>
+			<View id="vControl">
+				<Label id="labelPuntos"></Label>
+				<Label id="labelJugador" onClick="doClickJugador"> </Label>
+				<Button id="bStart" onClick="doClickStart"></Button>
+				<Button id="bClose" onClick="doClickStop"></Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>

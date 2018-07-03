@@ -1,0 +1,52 @@
+
+".container" : {
+	backgroundColor:'white',
+		width:'100%',
+		height:'100%',
+		layout:'absolute'
+}
+
+"#lb_mensaje":{
+		width:'100%',
+		height:'30%',
+		font: {
+			fontSize:'20%'
+		},
+		color:'black',
+		top:'0%',
+		textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#btn_twitter":{
+		width:"80%",
+		height:'15%',
+		title:'Twitter',
+		backgroundColor:'white',
+		borderColor:'black',
+		borderRadius:10,
+		color:'blue',
+		top:'35%'
+}
+
+"#btn_facebook":{
+		width:"80%",
+		height:'15%',
+		title:'Facebook',
+		backgroundColor:'blue',
+		borderColor:'black',
+		borderRadius:10,
+		color:'white',
+		top:'55%'
+}
+
+
+"#btn_cerrar":{
+		width:"80%",
+		height:'15%',
+		title:'Cerrar',
+		backgroundColor:'black',
+		borderColor:'black',
+		borderRadius:10,
+		color:'white',
+		top:'75%'
+}
